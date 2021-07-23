@@ -21,8 +21,8 @@ py logger.py
 
 Once you have opened the script in your desired text editor, there 1 line that you can change.
 ```
-# Enter your webhook below
-webhook = "Enter your webhook here"
+# Enter your pastebin below
+pastebinURL = "https://pastebin.com/raw/xxxxxx"
 ```
 
 # Support
