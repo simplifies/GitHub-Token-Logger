@@ -1,4 +1,3 @@
-## This is only for educational purposes, as I am not responsible for any malicous actions you do using this repo.
 
 # GitHub-Token-Logger
 This script is made in python3, and steals the auth cookie that github uses. You can use this cookie to login to the account, using another script linked in the readme.
@@ -33,3 +32,5 @@ Create an issue, or message me on discord.
 
 Credit to me for maintaining this project.
 Credit to https://github.com/borisbabic/browser_cookie3 for their module.
+
+## This is only for educational purposes, as I am not responsible for any malicous actions you do using this repo.
